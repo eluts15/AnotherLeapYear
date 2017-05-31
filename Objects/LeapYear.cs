@@ -2,12 +2,12 @@ namespace LeapYear
 {
   public class LeapYear
   {
-    public LeapYear
-    {
+    //Use-Cases
       public bool IsLeapYearTrue(int year)
       {
-        return false //For now just return false.
+        return year % 4 == 0;
       }
-    }
+
+
   }
 }
